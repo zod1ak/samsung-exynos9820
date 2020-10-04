@@ -51,6 +51,7 @@ jobs:
                 +boeffla_wl_blocker       \
                 +300hz                    \
                 +sched_perfomance         \
+
         2>&1 | tee config.info
     - name: Kernel Build
       run: ./build :build
